@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   
     spec.name         = "IdentityVerification"
     spec.version      = "1.0.2"
-    spec.summary      = "Account protection is a cloud service embedded into web and mobile apps to help enterprises confidently welcome trusted customers and keep the bad people out."
+    spec.summary      = "Identity Verification is a cloud service embedded into web and mobile apps to help enterprises confidently welcome trusted customers and keep the bad people out."
     spec.homepage     = "https://www.transmitsecurity.co.il"
   
     # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
     #   * Write the description between the DESC delimiters below.
     #   * Finally, don't worry about the indent, CocoaPods strips it!
     spec.description  = <<-DESC
-                    Account protection is a cloud service embedded into web and mobile apps to help enterprises confidently welcome trusted customers and keep the bad people out. Account protection detects risk in customer interactions on digital channels, and enables informed identity and trust decisions across the consumer experience. This is done by seamlessly monitoring user interactions across multiple channels in real-time and executing a dynamic risk engine that continuously assesses risk, challenges risky users, and elevates trust. This is aimed at reducing unauthorized access while keeping a frictionless experience and low false-positive rates.
+                    You can use identity verification to securely verify the identity of your customers using documents like their driver’s license or passport—such as before allowing them to open a new bank account online or pick up a rental car. This guide describes how to quickly integrate identity verification into your iOS application using our iOS SDK, including both the client-side and backend integration.
                      DESC
   
     # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
