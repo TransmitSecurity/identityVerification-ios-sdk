@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
     #
   
     spec.name         = "IdentityVerification"
-    spec.version      = "1.0.1"
+    spec.version      = "1.0.2"
     spec.summary      = "Account protection is a cloud service embedded into web and mobile apps to help enterprises confidently welcome trusted customers and keep the bad people out."
     spec.homepage     = "https://www.transmitsecurity.co.il"
   
