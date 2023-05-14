@@ -13,31 +13,37 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import zlib
+extension TSCoreSDK.TSRequestError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
 public protocol TSIdentityVerificationDelegate : AnyObject {
   func verificationDidReceiveStatus(_ status: IdentityVerification.TSIdentityVerificationStatus)
   func verificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
 }
-public enum TSIdentityVerificationStatus : Swift.Int {
+public enum TSIdentityVerificationStatus {
   case pending
   case capturing
   case processing
   case recapture
   case completed
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
+  public static func == (a: IdentityVerification.TSIdentityVerificationStatus, b: IdentityVerification.TSIdentityVerificationStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
 }
-public enum TSIdentityVerificationError : Swift.Int, Swift.Error {
-  case genericServerError
+public enum TSIdentityVerificationError : Swift.Error {
   case cameraPermissionRequired
   case sdkDisabled
   case sessionNotValid
   case verificationStatusError
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
+  case genericServerError
+  case networkError
+  public static func == (a: IdentityVerification.TSIdentityVerificationError, b: IdentityVerification.TSIdentityVerificationError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
 }
@@ -48,11 +54,10 @@ public enum TSIdentityVerificationError : Swift.Int, Swift.Error {
   }
   public static func initialize(baseUrl: Swift.String = "https://verifyid.security", clientId: Swift.String)
   public static func start(startToken: Swift.String)
+  public static func recapture()
   @objc deinit
 }
 extension IdentityVerification.TSIdentityVerificationStatus : Swift.Equatable {}
 extension IdentityVerification.TSIdentityVerificationStatus : Swift.Hashable {}
-extension IdentityVerification.TSIdentityVerificationStatus : Swift.RawRepresentable {}
 extension IdentityVerification.TSIdentityVerificationError : Swift.Equatable {}
 extension IdentityVerification.TSIdentityVerificationError : Swift.Hashable {}
-extension IdentityVerification.TSIdentityVerificationError : Swift.RawRepresentable {}
