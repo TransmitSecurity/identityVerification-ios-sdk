@@ -1,8 +1,9 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IdentityVerification
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
+import AccountProtection
 import Combine
 import Foundation
 @_exported import IdentityVerification
@@ -13,26 +14,41 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import zlib
+extension IdentityVerification.TSRecaptureReason : Swift.CustomStringConvertible, Swift.Decodable {
+  public var description: Swift.String {
+    get
+  }
+}
 extension TSCoreSDK.TSRequestError : Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }
 }
-public protocol TSIdentityVerificationDelegate : AnyObject {
-  func verificationDidReceiveStatus(_ status: IdentityVerification.TSIdentityVerificationStatus)
-  func verificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
-}
-public enum TSIdentityVerificationStatus {
-  case pending
-  case capturing
-  case processing
-  case recapture
-  case completed
-  public static func == (a: IdentityVerification.TSIdentityVerificationStatus, b: IdentityVerification.TSIdentityVerificationStatus) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+public enum TSRecaptureReason : Swift.Int {
+  case imageMissing
+  case docExpired
+  case docNotSupported
+  case docDamaged
+  case poorImageQuality
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
     get
   }
+}
+public protocol TSIdentityVerificationDelegate : AnyObject {
+  func verificationDidStartCapturing()
+  func verificationDidStartProcessing()
+  func verificationRequiresRecapture(reason: IdentityVerification.TSRecaptureReason)
+  func verificationDidComplete()
+  func verificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
+}
+extension IdentityVerification.TSIdentityVerificationDelegate {
+  public func verificationDidStartCapturing()
+  public func verificationDidStartProcessing()
+  public func verificationRequiresRecapture(reason: IdentityVerification.TSRecaptureReason)
+  public func verificationDidComplete()
+  public func verificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
 }
 public enum TSIdentityVerificationError : Swift.Error {
   case cameraPermissionRequired
@@ -57,7 +73,8 @@ public enum TSIdentityVerificationError : Swift.Error {
   public static func recapture()
   @objc deinit
 }
-extension IdentityVerification.TSIdentityVerificationStatus : Swift.Equatable {}
-extension IdentityVerification.TSIdentityVerificationStatus : Swift.Hashable {}
+extension IdentityVerification.TSRecaptureReason : Swift.Equatable {}
+extension IdentityVerification.TSRecaptureReason : Swift.Hashable {}
+extension IdentityVerification.TSRecaptureReason : Swift.RawRepresentable {}
 extension IdentityVerification.TSIdentityVerificationError : Swift.Equatable {}
 extension IdentityVerification.TSIdentityVerificationError : Swift.Hashable {}

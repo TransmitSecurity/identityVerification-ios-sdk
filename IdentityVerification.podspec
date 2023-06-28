@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
     #
   
     spec.name         = "IdentityVerification"
-    spec.version      = "1.0.3"
+    spec.version      = "1.0.4"
     spec.summary      = "Identity Verification is a cloud service embedded into web and mobile apps to help enterprises confidently welcome trusted customers and keep the bad people out."
     spec.homepage     = "https://www.transmitsecurity.co.il"
   
@@ -134,7 +134,7 @@ Pod::Spec.new do |spec|
     # spec.requires_arc = true
   
     # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-    spec.dependency "TSCoreSDK", "~> 1.0.8"
+    spec.dependency "AccountProtection", "~> 2.0.3"
 
     spec.pod_target_xcconfig = {
       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
