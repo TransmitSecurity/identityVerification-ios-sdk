@@ -68,7 +68,7 @@ public enum TSIdentityVerificationError : Swift.Error {
     get
     set
   }
-  public static func initialize(baseUrl: Swift.String = "https://verifyid.security", clientId: Swift.String)
+  public static func initialize(baseUrl: Swift.String = "https://api.transmitsecurity.io/verify", clientId: Swift.String)
   public static func start(startToken: Swift.String)
   public static func recapture()
   @objc deinit
