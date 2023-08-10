@@ -41,6 +41,7 @@ public protocol TSIdentityVerificationDelegate : AnyObject {
   func verificationDidStartProcessing()
   func verificationRequiresRecapture(reason: IdentityVerification.TSRecaptureReason)
   func verificationDidComplete()
+  func verificationDidCancel()
   func verificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
 }
 extension IdentityVerification.TSIdentityVerificationDelegate {
@@ -49,12 +50,14 @@ extension IdentityVerification.TSIdentityVerificationDelegate {
   public func verificationRequiresRecapture(reason: IdentityVerification.TSRecaptureReason)
   public func verificationDidComplete()
   public func verificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
+  public func verificationDidCancel()
 }
 public enum TSIdentityVerificationError : Swift.Error {
   case cameraPermissionRequired
   case sdkDisabled
   case sessionNotValid
   case verificationStatusError
+  case recaptureNotRequired
   case genericServerError
   case networkError
   public static func == (a: IdentityVerification.TSIdentityVerificationError, b: IdentityVerification.TSIdentityVerificationError) -> Swift.Bool
