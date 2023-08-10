@@ -134,6 +134,7 @@ Pod::Spec.new do |spec|
     # spec.requires_arc = true
   
     # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+    spec.dependency "TSCoreSDK", "~> 1.0.13"
     spec.dependency "AccountProtection", "~> 2.0.3"
 
     spec.pod_target_xcconfig = {
