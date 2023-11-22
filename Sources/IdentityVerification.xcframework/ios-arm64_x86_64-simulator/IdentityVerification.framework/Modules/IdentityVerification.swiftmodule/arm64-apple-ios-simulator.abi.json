@@ -5000,127 +5000,127 @@
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "kind": "StringLiteral",
+      "offset": 9456,
+      "length": 23,
+      "value": "\"identity_verification\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9702,
+      "offset": 9708,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9953,
+      "offset": 9959,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 10192,
+      "offset": 10198,
       "length": 44,
       "value": "\"Verification did receive status: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 10235,
+      "offset": 10241,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 10446,
+      "offset": 10452,
       "length": 20,
       "value": "\"Missing session id\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 12456,
+      "offset": 12462,
       "length": 74,
       "value": "\"Error code: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 12486,
+      "offset": 12492,
       "length": 1,
       "value": "\", description: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 12529,
+      "offset": 12535,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 12672,
+      "offset": 12678,
       "length": 5,
       "value": "\"otf\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 12716,
+      "offset": 12722,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
       "kind": "StringLiteral",
-      "offset": 662,
+      "offset": 791,
       "length": 35,
       "value": "\"ts-drs-configuration-notification\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
       "kind": "StringLiteral",
-      "offset": 749,
+      "offset": 878,
       "length": 13,
       "value": "\"ts-base-url\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
       "kind": "StringLiteral",
-      "offset": 813,
+      "offset": 942,
       "length": 12,
       "value": "\"ts-user-id\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
       "kind": "StringLiteral",
-      "offset": 1373,
-      "length": 23,
-      "value": "\"identity_verification\""
-    },
-    {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
-      "kind": "StringLiteral",
-      "offset": 2640,
+      "offset": 3098,
       "length": 80,
       "value": "\"Action token did send: sessionId: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
       "kind": "StringLiteral",
-      "offset": 2699,
+      "offset": 3157,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
       "kind": "StringLiteral",
-      "offset": 2702,
+      "offset": 3160,
       "length": 1,
       "value": "\", token: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
       "kind": "StringLiteral",
-      "offset": 2719,
+      "offset": 3177,
       "length": 2,
       "value": "\"\""
     },
