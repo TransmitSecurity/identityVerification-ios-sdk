@@ -75,6 +75,7 @@ public enum TSIdentityVerificationError : Swift.Error {
   }
   public static func initialize(baseUrl: Swift.String = "https://api.transmitsecurity.io/", clientId: Swift.String)
   public static func start(startToken: Swift.String)
+  public static func startFaceAuth(deviceSessionId: Swift.String)
   public static func recapture()
   @objc deinit
 }
