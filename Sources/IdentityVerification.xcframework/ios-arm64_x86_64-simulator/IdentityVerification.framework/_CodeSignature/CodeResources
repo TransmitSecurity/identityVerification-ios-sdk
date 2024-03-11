@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		R20lNvwY4rqCBVw3ayk4JfaRKSI=
+		E9/0/pbU4Oj5HOUvTeGMKwt9v+4=
 		</data>
 		<key>Inter-Regular.otf</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		t/0sWBoIB+tBUY0DMPzoxc232q4=
+		MFA4NI/+1ostsx4RanRlEGwZAdE=
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xB/Eqsr2Z9dDCRP9nj0K/AlYq2Q=
+		0O6GditqOd6P7OwBRQENrO8LH+0=
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		t/0sWBoIB+tBUY0DMPzoxc232q4=
+		MFA4NI/+1ostsx4RanRlEGwZAdE=
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -74,11 +74,15 @@
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SThSYIAW77/8iLfBgQxx/xeLlX0=
+		Lnn9O2z3pw5r3qtnyMSUFof6qYw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		owFeiLiftSO4ipBYe229oyk+Bdo=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		zuDH59xaCcT3ZC1eBuiNcpuOaRQ=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -163,7 +167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lWpQcQhhehwyZz3oI0c1N5HUg6NTonlTh+1GSu6aJmk=
+			ZbOrhCTsEHSjdn7TodopFY4BBiNiAdB0FYeiHje30Ng=
 			</data>
 		</dict>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -191,14 +195,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lK2fsLeY1AN51zY0StcWKvKLiMZ9zk+Yf7MrG651wv0=
+			5O9nkp8zxfJihwzzAAxL/3epVia0ydHJS85tDezEkTs=
 			</data>
 		</dict>
 		<key>Modules/IdentityVerification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lWpQcQhhehwyZz3oI0c1N5HUg6NTonlTh+1GSu6aJmk=
+			ZbOrhCTsEHSjdn7TodopFY4BBiNiAdB0FYeiHje30Ng=
 			</data>
 		</dict>
 		<key>Modules/IdentityVerification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -226,7 +230,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wmqpSDeR1o5jlRHfhkeqgMDLBOFmhuS0IaVDbSjglGo=
+			F+1szUSTmnMBdX2X+oYzmjUfDxR8iewTgOsXjwqpsEk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -234,6 +238,13 @@
 			<key>hash2</key>
 			<data>
 			7wPY69MCOL7CMw3KUer3wqhH4lF+U75nk1gL93lvqfw=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BMXXsngH4IeHQxT/MThsfiylg2p4t3ASWCAoGBmNRkw=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>

@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fExlUJu2bSosE+92WdlAgzxWpGE=
+		Zr8ldat9lB/A3N629kZdIRi+RLU=
 		</data>
 		<key>Inter-Regular.otf</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		hvaflCLaKxN8LLB+yi42Vhzbg/A=
+		cjZOU5qJnwjnHk/30WJCKbt83p0=
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -54,11 +54,15 @@
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		NSLd49RsS+pEd7oZWMU8jCpIVY4=
+		TcBiGyUQEAEwE2Hg/PcdEiEfalw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		owFeiLiftSO4ipBYe229oyk+Bdo=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		zuDH59xaCcT3ZC1eBuiNcpuOaRQ=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -143,7 +147,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yfK6q4RRzy/2fsaQykLqqAqPXTqE2umxN++XyV2EQ5A=
+			2Q4WpjkKeRMlmGGm+M+Y6atMvJnrW8BTA6o5woYTv90=
 			</data>
 		</dict>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -171,7 +175,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s1Zp6MtOsqefRzz7A9c7uAkk4oV2+7nidF92T1MmPoY=
+			E2qucj42w1XEnHz+WU1aAJmWN8G8WjvkIc9cCvRs0t4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -179,6 +183,13 @@
 			<key>hash2</key>
 			<data>
 			7wPY69MCOL7CMw3KUer3wqhH4lF+U75nk1gL93lvqfw=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BMXXsngH4IeHQxT/MThsfiylg2p4t3ASWCAoGBmNRkw=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
