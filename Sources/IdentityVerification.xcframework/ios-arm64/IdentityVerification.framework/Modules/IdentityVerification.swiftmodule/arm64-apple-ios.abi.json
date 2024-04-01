@@ -76,6 +76,376 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "TSIdentityFaceAuthenticationDelegate",
+        "printedName": "TSIdentityFaceAuthenticationDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "faceAuthenticationDidStartCapturing",
+            "printedName": "faceAuthenticationDidStartCapturing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20IdentityVerification36TSIdentityFaceAuthenticationDelegateP04faceE17DidStartCapturingyyF",
+            "mangledName": "$s20IdentityVerification36TSIdentityFaceAuthenticationDelegateP04faceE17DidStartCapturingyyF",
+            "moduleName": "IdentityVerification",
+            "genericSig": "<τ_0_0 where τ_0_0 : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "faceAuthenticationDidStartProcessing",
+            "printedName": "faceAuthenticationDidStartProcessing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20IdentityVerification36TSIdentityFaceAuthenticationDelegateP04faceE18DidStartProcessingyyF",
+            "mangledName": "$s20IdentityVerification36TSIdentityFaceAuthenticationDelegateP04faceE18DidStartProcessingyyF",
+            "moduleName": "IdentityVerification",
+            "genericSig": "<τ_0_0 where τ_0_0 : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "faceAuthenticationDidComplete",
+            "printedName": "faceAuthenticationDidComplete()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20IdentityVerification36TSIdentityFaceAuthenticationDelegateP04faceE11DidCompleteyyF",
+            "mangledName": "$s20IdentityVerification36TSIdentityFaceAuthenticationDelegateP04faceE11DidCompleteyyF",
+            "moduleName": "IdentityVerification",
+            "genericSig": "<τ_0_0 where τ_0_0 : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "faceAuthenticationDidCancel",
+            "printedName": "faceAuthenticationDidCancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20IdentityVerification36TSIdentityFaceAuthenticationDelegateP04faceE9DidCancelyyF",
+            "mangledName": "$s20IdentityVerification36TSIdentityFaceAuthenticationDelegateP04faceE9DidCancelyyF",
+            "moduleName": "IdentityVerification",
+            "genericSig": "<τ_0_0 where τ_0_0 : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "faceAuthenticationDidFail",
+            "printedName": "faceAuthenticationDidFail(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TSIdentityVerificationError",
+                "printedName": "IdentityVerification.TSIdentityVerificationError",
+                "usr": "s:20IdentityVerification010TSIdentityB5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20IdentityVerification36TSIdentityFaceAuthenticationDelegateP04faceE7DidFail4withyAA0cB5ErrorO_tF",
+            "mangledName": "$s20IdentityVerification36TSIdentityFaceAuthenticationDelegateP04faceE7DidFail4withyAA0cB5ErrorO_tF",
+            "moduleName": "IdentityVerification",
+            "genericSig": "<τ_0_0 where τ_0_0 : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "faceAuthenticationDidStartCapturing",
+            "printedName": "faceAuthenticationDidStartCapturing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20IdentityVerification36TSIdentityFaceAuthenticationDelegatePAAE04faceE17DidStartCapturingyyF",
+            "mangledName": "$s20IdentityVerification36TSIdentityFaceAuthenticationDelegatePAAE04faceE17DidStartCapturingyyF",
+            "moduleName": "IdentityVerification",
+            "genericSig": "<τ_0_0 where τ_0_0 : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "faceAuthenticationDidStartProcessing",
+            "printedName": "faceAuthenticationDidStartProcessing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20IdentityVerification36TSIdentityFaceAuthenticationDelegatePAAE04faceE18DidStartProcessingyyF",
+            "mangledName": "$s20IdentityVerification36TSIdentityFaceAuthenticationDelegatePAAE04faceE18DidStartProcessingyyF",
+            "moduleName": "IdentityVerification",
+            "genericSig": "<τ_0_0 where τ_0_0 : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "faceAuthenticationDidComplete",
+            "printedName": "faceAuthenticationDidComplete()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20IdentityVerification36TSIdentityFaceAuthenticationDelegatePAAE04faceE11DidCompleteyyF",
+            "mangledName": "$s20IdentityVerification36TSIdentityFaceAuthenticationDelegatePAAE04faceE11DidCompleteyyF",
+            "moduleName": "IdentityVerification",
+            "genericSig": "<τ_0_0 where τ_0_0 : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "faceAuthenticationDidFail",
+            "printedName": "faceAuthenticationDidFail(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TSIdentityVerificationError",
+                "printedName": "IdentityVerification.TSIdentityVerificationError",
+                "usr": "s:20IdentityVerification010TSIdentityB5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20IdentityVerification36TSIdentityFaceAuthenticationDelegatePAAE04faceE7DidFail4withyAA0cB5ErrorO_tF",
+            "mangledName": "$s20IdentityVerification36TSIdentityFaceAuthenticationDelegatePAAE04faceE7DidFail4withyAA0cB5ErrorO_tF",
+            "moduleName": "IdentityVerification",
+            "genericSig": "<τ_0_0 where τ_0_0 : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "faceAuthenticationDidCancel",
+            "printedName": "faceAuthenticationDidCancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20IdentityVerification36TSIdentityFaceAuthenticationDelegatePAAE04faceE9DidCancelyyF",
+            "mangledName": "$s20IdentityVerification36TSIdentityFaceAuthenticationDelegatePAAE04faceE9DidCancelyyF",
+            "moduleName": "IdentityVerification",
+            "genericSig": "<τ_0_0 where τ_0_0 : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : IdentityVerification.TSIdentityFaceAuthenticationDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20IdentityVerification36TSIdentityFaceAuthenticationDelegateP",
+        "mangledName": "$s20IdentityVerification36TSIdentityFaceAuthenticationDelegateP",
+        "moduleName": "IdentityVerification",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TSCoreSDK",
+        "printedName": "TSCoreSDK",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TSCoreSDK",
+        "printedName": "TSCoreSDK",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TSCoreSDK",
+        "printedName": "TSCoreSDK",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification"
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -172,108 +542,6 @@
       },
       {
         "kind": "Import",
-        "name": "TSCoreSDK",
-        "printedName": "TSCoreSDK",
-        "declKind": "Import",
-        "moduleName": "IdentityVerification"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdentityVerification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "IdentityVerification"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdentityVerification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "TSCoreSDK",
-        "printedName": "TSCoreSDK",
-        "declKind": "Import",
-        "moduleName": "IdentityVerification"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdentityVerification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "IdentityVerification"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdentityVerification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "IdentityVerification"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdentityVerification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "TSCoreSDK",
-        "printedName": "TSCoreSDK",
-        "declKind": "Import",
-        "moduleName": "IdentityVerification"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdentityVerification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -349,6 +617,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TSCoreSDK",
+        "printedName": "TSCoreSDK",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification"
       },
       {
         "kind": "Import",
@@ -1552,6 +1837,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "TSCoreSDK",
+        "printedName": "TSCoreSDK",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification"
+      },
+      {
         "kind": "TypeDecl",
         "name": "TSIdentityVerificationError",
         "printedName": "TSIdentityVerificationError",
@@ -1837,6 +2129,46 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "initializationError",
+            "printedName": "initializationError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdentityVerification.TSIdentityVerificationError.Type) -> IdentityVerification.TSIdentityVerificationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TSIdentityVerificationError",
+                    "printedName": "IdentityVerification.TSIdentityVerificationError",
+                    "usr": "s:20IdentityVerification010TSIdentityB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdentityVerification.TSIdentityVerificationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TSIdentityVerificationError",
+                        "printedName": "IdentityVerification.TSIdentityVerificationError",
+                        "usr": "s:20IdentityVerification010TSIdentityB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20IdentityVerification010TSIdentityB5ErrorO014initializationD0yA2CmF",
+            "mangledName": "$s20IdentityVerification010TSIdentityB5ErrorO014initializationD0yA2CmF",
+            "moduleName": "IdentityVerification",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -2096,6 +2428,124 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "faceAuthDelegate",
+            "printedName": "faceAuthDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "IdentityVerification.TSIdentityFaceAuthenticationDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20IdentityVerification010TSIdentityB0C16faceAuthDelegateAA0c18FaceAuthenticationF0_pSgvpZ",
+            "mangledName": "$s20IdentityVerification010TSIdentityB0C16faceAuthDelegateAA0c18FaceAuthenticationF0_pSgvpZ",
+            "moduleName": "IdentityVerification",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IdentityVerification.TSIdentityFaceAuthenticationDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TSIdentityFaceAuthenticationDelegate",
+                        "printedName": "IdentityVerification.TSIdentityFaceAuthenticationDelegate",
+                        "usr": "s:20IdentityVerification36TSIdentityFaceAuthenticationDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20IdentityVerification010TSIdentityB0C16faceAuthDelegateAA0c18FaceAuthenticationF0_pSgvgZ",
+                "mangledName": "$s20IdentityVerification010TSIdentityB0C16faceAuthDelegateAA0c18FaceAuthenticationF0_pSgvgZ",
+                "moduleName": "IdentityVerification",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IdentityVerification.TSIdentityFaceAuthenticationDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TSIdentityFaceAuthenticationDelegate",
+                        "printedName": "IdentityVerification.TSIdentityFaceAuthenticationDelegate",
+                        "usr": "s:20IdentityVerification36TSIdentityFaceAuthenticationDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20IdentityVerification010TSIdentityB0C16faceAuthDelegateAA0c18FaceAuthenticationF0_pSgvsZ",
+                "mangledName": "$s20IdentityVerification010TSIdentityB0C16faceAuthDelegateAA0c18FaceAuthenticationF0_pSgvsZ",
+                "moduleName": "IdentityVerification",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20IdentityVerification010TSIdentityB0C16faceAuthDelegateAA0c18FaceAuthenticationF0_pSgvMZ",
+                "mangledName": "$s20IdentityVerification010TSIdentityB0C16faceAuthDelegateAA0c18FaceAuthenticationF0_pSgvMZ",
+                "moduleName": "IdentityVerification",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "initialize",
             "printedName": "initialize(baseUrl:clientId:)",
@@ -2129,6 +2579,30 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeSDK",
+            "printedName": "initializeSDK()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20IdentityVerification010TSIdentityB0C13initializeSDKyyKFZ",
+            "mangledName": "$s20IdentityVerification010TSIdentityB0C13initializeSDKyyKFZ",
+            "moduleName": "IdentityVerification",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -2279,6 +2753,23 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TSCoreSDK",
+        "printedName": "TSCoreSDK",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification"
       },
       {
         "kind": "Import",
@@ -2638,555 +3129,562 @@
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2844,
+      "offset": 2856,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3158,
+      "offset": 3171,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3279,
+      "offset": 3292,
       "length": 104,
       "value": "\"Missing image data to upload for document type: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3372,
+      "offset": 3385,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3382,
+      "offset": 3395,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3611,
+      "offset": 3624,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3691,
+      "offset": 3704,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3801,
+      "offset": 3814,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3909,
+      "offset": 3922,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4014,
+      "offset": 4027,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4069,
+      "offset": 4082,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4104,
+      "offset": 4117,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4256,
+      "offset": 4269,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4336,
+      "offset": 4349,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4376,
+      "offset": 4389,
       "length": 124,
       "value": "\"Failed to upload image with error: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4425,
+      "offset": 4438,
       "length": 3,
       "value": "\" for document type: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4489,
+      "offset": 4502,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4499,
+      "offset": 4512,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4736,
+      "offset": 4749,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5724,
+      "offset": 5737,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5759,
+      "offset": 5772,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5800,
+      "offset": 5813,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5873,
+      "offset": 5886,
       "length": 118,
       "value": "\"message: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5898,
+      "offset": 5911,
       "length": 1,
       "value": "\", document type: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5959,
+      "offset": 5972,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5969,
+      "offset": 5982,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5990,
+      "offset": 6003,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6126,
+      "offset": 6139,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6247,
+      "offset": 6260,
       "length": 104,
       "value": "\"Missing image data to upload for document type: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6340,
+      "offset": 6353,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6350,
+      "offset": 6363,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6587,
+      "offset": 6600,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6667,
+      "offset": 6680,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6777,
+      "offset": 6790,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6885,
+      "offset": 6898,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6990,
+      "offset": 7003,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 7045,
+      "offset": 7058,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 7080,
+      "offset": 7093,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 7305,
+      "offset": 7318,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7345,
+      "offset": 7358,
       "length": 124,
       "value": "\"Failed to upload image with error: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7394,
+      "offset": 7407,
       "length": 3,
       "value": "\" for document type: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7458,
+      "offset": 7471,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7468,
+      "offset": 7481,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 7705,
+      "offset": 7718,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8693,
+      "offset": 8706,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8728,
+      "offset": 8741,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8769,
+      "offset": 8782,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 8842,
+      "offset": 8855,
       "length": 118,
       "value": "\"message: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 8867,
+      "offset": 8880,
       "length": 1,
       "value": "\", document type: \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 8928,
+      "offset": 8941,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 8938,
+      "offset": 8951,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 8959,
+      "offset": 8972,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "Array",
-      "offset": 9764,
+      "offset": 9777,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 11490,
+      "offset": 11503,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 11553,
+      "offset": 11566,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/Screens\/CameraView\/CapturePhotoViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 11729,
+      "offset": 11742,
       "length": 25,
       "value": "\"Flow item doesn't exist\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 301,
+      "offset": 326,
       "length": 9,
       "value": "\"verify\/\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 364,
+      "offset": 389,
       "length": 11,
       "value": "\"client_id\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 410,
+      "offset": 435,
       "length": 15,
       "value": "\"client_secret\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 457,
+      "offset": 482,
       "length": 12,
       "value": "\"grant_type\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 520,
+      "offset": 545,
       "length": 10,
       "value": "\"tenantId\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 582,
+      "offset": 607,
       "length": 9,
       "value": "\"package\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 641,
+      "offset": 666,
       "length": 7,
       "value": "\"build\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 722,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 737,
+      "offset": 762,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 787,
+      "offset": 812,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 838,
+      "offset": 863,
       "length": 12,
       "value": "\"Set-Cookie\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 884,
+      "offset": 909,
       "length": 20,
       "value": "\"client_credentials\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 933,
+      "offset": 958,
       "length": 8,
       "value": "\"Bearer\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 997,
+      "offset": 1022,
       "length": 4,
       "value": "\"ok\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1034,
+      "offset": 1059,
       "length": 5,
       "value": "\"sdf\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1071,
+      "offset": 1096,
       "length": 12,
       "value": "\"mobile_sdk\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1156,
+      "offset": 1181,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1195,
+      "offset": 1220,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1237,
+      "offset": 1262,
       "length": 3,
       "value": "402"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1273,
+      "offset": 1298,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1308,
+      "offset": 1333,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "BooleanLiteral",
-      "offset": 1391,
+      "offset": 1416,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1429,
+      "offset": 1454,
       "length": 18,
       "value": "\"IDVConfiguration\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1531,
+      "length": 18,
+      "value": "\"TransmitSecurity\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Extensions\/DateExtensions.swift",
@@ -4463,6 +4961,20 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Data Manager\/Network\/TSDataNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 797,
+      "length": 32,
+      "value": "\"Session Token succesfully sent\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Data Manager\/Network\/TSDataNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 891,
+      "length": 30,
+      "value": "\"Session Token Request failed\""
+    },
+    {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Events\/TSBIEventRequests\/TSBIEventRequest.swift",
       "kind": "StringLiteral",
       "offset": 303,
@@ -5130,474 +5642,509 @@
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Data Manager\/TSDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1029,
+      "offset": 1033,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Data Manager\/TSDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1088,
+      "offset": 1092,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Data Manager\/TSDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1124,
+      "offset": 1128,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Data Manager\/TSDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1151,
+      "offset": 1155,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Data Manager\/TSDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 2334,
+      "offset": 2338,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
       "offset": 519,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
       "offset": 622,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
       "offset": 682,
       "length": 25,
       "value": "\"com.verifyid.controller\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 1777,
+      "offset": 1928,
       "length": 26,
       "value": "\"init controller user api\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 1917,
+      "offset": 2068,
       "length": 43,
       "value": "\"Try to start while SDK is already started\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2023,
+      "offset": 2174,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2057,
+      "offset": 2208,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 2097,
+      "offset": 2248,
       "length": 63,
       "value": "\"start session controller user api, start token: \""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 2159,
+      "offset": 2310,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 2367,
+      "offset": 2518,
       "length": 53,
       "value": "\"Try to start face auth while SDK is already started\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2560,
+      "offset": 2711,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2594,
+      "offset": 2745,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 2634,
+      "offset": 2785,
       "length": 74,
       "value": "\"start session controller user api, device session id: \""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 2707,
+      "offset": 2858,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 2906,
+      "offset": 3057,
       "length": 47,
       "value": "\"Try to recapture while SDK is already started\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3161,
+      "offset": 3319,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3923,
+      "offset": 4082,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 4085,
+      "offset": 4234,
       "length": 33,
       "value": "\"No images required to recapture\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 4209,
+      "offset": 4358,
       "length": 66,
       "value": "\"Failed to crate session manager with error: \""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 4274,
+      "offset": 4423,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4331,
+      "offset": 4480,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 4382,
+      "offset": 4531,
       "length": 31,
       "value": "\"recapture controller user api\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 4685,
+      "offset": 4834,
       "length": 20,
       "value": "\"Missing session id\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6281,
+      "offset": 6413,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6370,
+      "offset": 6502,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7485,
+      "offset": 7672,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7574,
+      "offset": 7761,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7717,
+      "offset": 7950,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 7748,
+      "offset": 7981,
       "length": 17,
       "value": "\"SDK is disabled\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 8362,
+      "offset": 8638,
       "length": 42,
       "value": "\"Server error: \""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 8403,
+      "offset": 8679,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 8566,
+      "offset": 8842,
       "length": 46,
       "value": "\"Unknown error: \""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 8611,
+      "offset": 8887,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9469,
+      "offset": 9753,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 10021,
+      "offset": 10318,
       "length": 18,
       "value": "\"no camera access\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 10123,
+      "offset": 10420,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 10710,
+      "offset": 11029,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 11744,
-      "length": 44,
-      "value": "\"Verification did fail with error: \""
-    },
-    {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
-      "kind": "StringLiteral",
-      "offset": 11787,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12346,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12597,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
-      "kind": "StringLiteral",
-      "offset": 12836,
-      "length": 44,
-      "value": "\"Verification did receive status: \""
-    },
-    {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
-      "kind": "StringLiteral",
-      "offset": 12879,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
-      "kind": "StringLiteral",
-      "offset": 13099,
+      "offset": 12022,
       "length": 20,
       "value": "\"Missing session id\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 13451,
+      "offset": 12381,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 15273,
+      "offset": 14320,
       "length": 74,
       "value": "\"Error code: \""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 15303,
+      "offset": 14350,
       "length": 1,
       "value": "\", description: \""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 15346,
+      "offset": 14393,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 15489,
+      "offset": 14536,
       "length": 5,
       "value": "\"otf\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 15533,
+      "offset": 14580,
       "length": 5,
       "value": "\"ttf\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
+      "kind": "StringLiteral",
+      "offset": 16016,
+      "length": 48,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
+      "kind": "StringLiteral",
+      "offset": 16028,
+      "length": 4,
+      "value": "\" flow did fail with error: \""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
+      "kind": "StringLiteral",
+      "offset": 16063,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
+      "kind": "StringLiteral",
+      "offset": 16466,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
+      "kind": "StringLiteral",
+      "offset": 16478,
+      "length": 4,
+      "value": "\" flow did cancele\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17362,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17613,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
+      "kind": "StringLiteral",
+      "offset": 17852,
+      "length": 44,
+      "value": "\"Verification did receive status: \""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
+      "kind": "StringLiteral",
+      "offset": 17895,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
+      "kind": "StringLiteral",
+      "offset": 18739,
+      "length": 44,
+      "value": "\"Verification did receive status: \""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationController.swift",
+      "kind": "StringLiteral",
+      "offset": 18782,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/DRS Controller\/DRSController.swift",
       "kind": "StringLiteral",
       "offset": 242,
       "length": 29,
       "value": "\"identity_verification_start\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/DRS Controller\/DRSController.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 33,
       "value": "\"identity_verification_completed\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/DRS Controller\/DRSController.swift",
       "kind": "StringLiteral",
       "offset": 242,
       "length": 29,
       "value": "\"identity_verification_start\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/DRS Controller\/DRSController.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 33,
       "value": "\"identity_verification_completed\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/DRS Controller\/DRSController.swift",
       "kind": "IntegerLiteral",
       "offset": 819,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/DRS Controller\/DRSController.swift",
       "kind": "IntegerLiteral",
       "offset": 909,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/DRS Controller\/DRSController.swift",
       "kind": "StringLiteral",
       "offset": 1069,
       "length": 35,
       "value": "\"ts-drs-configuration-notification\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/DRS Controller\/DRSController.swift",
       "kind": "StringLiteral",
       "offset": 1156,
       "length": 13,
       "value": "\"ts-base-url\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/DRS Controller\/DRSController.swift",
       "kind": "StringLiteral",
       "offset": 1220,
       "length": 12,
       "value": "\"ts-user-id\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/DRS Controller\/DRSController.swift",
       "kind": "StringLiteral",
       "offset": 4338,
       "length": 80,
       "value": "\"Action token did send: sessionId: \""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/DRS Controller\/DRSController.swift",
       "kind": "StringLiteral",
       "offset": 4397,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/DRS Controller\/DRSController.swift",
       "kind": "StringLiteral",
       "offset": 4400,
       "length": 1,
       "value": "\", token: \""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/DRSController.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/DRS Controller\/DRSController.swift",
       "kind": "StringLiteral",
       "offset": 4417,
       "length": 2,
@@ -5702,84 +6249,84 @@
       "value": "\"idv\""
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationDelegate.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 207,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationDelegate.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 227,
       "length": 15,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationDelegate.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationDelegate.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 272,
       "length": 16,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationDelegate.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 207,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationDelegate.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 227,
       "length": 15,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationDelegate.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationDelegate.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 272,
       "length": 16,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationDelegate.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 207,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationDelegate.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 227,
       "length": 15,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationDelegate.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerificationDelegate.swift",
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Implementation\/TSIdentityVerificationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 272,
       "length": 16,
@@ -5788,14 +6335,14 @@
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Coordinators\/CameraScreenCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1259,
+      "offset": 1273,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Coordinators\/CameraScreenCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1640,
+      "offset": 1654,
       "length": 4,
       "value": "true"
     },
@@ -6362,7 +6909,7 @@
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/API\/TSIdentityVerification.swift",
       "kind": "StringLiteral",
-      "offset": 1696,
+      "offset": 2329,
       "length": 34,
       "value": "\"https:\/\/api.transmitsecurity.io\/\""
     },
@@ -6393,6 +6940,48 @@
       "offset": 639,
       "length": 1,
       "value": "\"\/action-token\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Data Manager\/Network\/Requests\/TSSessionTokenRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 12,
+      "value": "\"session_id\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Data Manager\/Network\/Requests\/TSSessionTokenRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 12,
+      "value": "\"session_id\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Data Manager\/Network\/Requests\/TSSessionTokenRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 53,
+      "value": "\"api\/v1\/verification\/\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Data Manager\/Network\/Requests\/TSSessionTokenRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 1,
+      "value": "\"\/risk-session-token\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Data Manager\/Network\/Requests\/TSSessionTokenRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 725,
+      "length": 15,
+      "value": "\"session_token\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Data Manager\/Network\/Requests\/TSSessionTokenRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 725,
+      "length": 15,
+      "value": "\"session_token\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Utils\/Extensions\/Data+Gzip.swift",
