@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		92Yk9qmHm3kdvD2FNetU7X0P9PU=
+		iJq5v4MK8C3hFl8ZMBsh6fIfdvc=
 		</data>
 		<key>Headers/IdentityVerification-Swift.h</key>
 		<data>
-		a+f/uyvSkUMaFX2lwl44j1Gh1KA=
+		uZosLw06v7amm9H0qUItuP7A1J4=
 		</data>
 		<key>Headers/IdentityVerification.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SBFMWiIv60MM90m8HeL9Kg6UUJ8=
+		P6+0OGmREKcpD38Rnw+ClZtM+Ig=
 		</data>
 		<key>Inter-Regular.otf</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Main.storyboardc/CapturePhotoScreen.nib</key>
 		<data>
-		vjA6izWJybY7v3EANDwdxe1euRg=
+		g6BQ3f++jG35gkgcXJZjo9KMy8g=
 		</data>
 		<key>Main.storyboardc/Info.plist</key>
 		<data>
@@ -34,35 +34,31 @@
 		</data>
 		<key>Main.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		whEZ/wP/6UD07u+Gt/aLOt8xQGI=
+		IOSU9Y8DX60JH8HT7o3PNKR4Ww4=
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		evV++ZwzMb+ahIE7h0QS+ECCsqE=
+		KmlkmG5jntVYi4Btjjub9DYjEMw=
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		JpbEafHAYzI2/stPPgxHJR3QEAY=
+		Hq6UcNnUjq1llOk19k7TL7fOcyU=
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		eLkKo/bmO+Ey9LBpsxSleENeTk4=
+		EXkgrVKX215gwlnAXi6EhP9+u+4=
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		JpbEafHAYzI2/stPPgxHJR3QEAY=
+		Hq6UcNnUjq1llOk19k7TL7fOcyU=
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		8fXo1pVLZfESUwxXE3dhCMRWRRw=
+		dk6/CRaghbSc3G8Jd4+wOZr6gbI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		owFeiLiftSO4ipBYe229oyk+Bdo=
-		</data>
-		<key>PrivacyInfo.xcprivacy</key>
-		<data>
-		zuDH59xaCcT3ZC1eBuiNcpuOaRQ=
+		ZFWsiygxE2LGKQ9g3NvNOWcmdO4=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -98,14 +94,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WuNzEtA/xaAlCKozGfkx4qYyGfT7S8Vz+UmLa+KvsC0=
+			zibbB7t2Ky/g5YGecqT9vNhrNNLxhxsZs5x1UNBmWIs=
 			</data>
 		</dict>
 		<key>Headers/IdentityVerification-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+rvsrEJxMTzeTkCziyXLehwtTfdsM3MFHJWgMuIz14E=
+			MZABBZqskiIQeuxkU4bYerko+k3pimx65Ilw438WAtY=
 			</data>
 		</dict>
 		<key>Headers/IdentityVerification.h</key>
@@ -126,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dzyAFvLVpAvaS72suWxyBvHfyf3FYYIk2QTY3au9lNI=
+			brWiUnV4+HArKyduoEBLZEozcgxKv/tJGAt7Pqv1aA0=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Info.plist</key>
@@ -140,56 +136,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UFeAe7nT0J0axVki/pL8FfKpsAMMdWyC8yRQN/9hKEo=
+			z8Tn1mkQ0Ht9xjqW5DVfgolcrAL6TcRtOcjFJlkiMkY=
 			</data>
 		</dict>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y0J0IyAlYTWpvlCXu3xq9WhNB8C1rGFB4qZUjCa+uNU=
+			EJIuZw+n1Sctg4FhV4DsoLaSjIkw1KJ8kzIDpZz4aAY=
 			</data>
 		</dict>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+TwMiGyU2eieig2gEJHeDiIvCfIJAFCABRXEZZUIrdo=
+			bttTmEGbwMHgiE7f3bClqLB4N3eLIFjdTTMP0wwOa1k=
 			</data>
 		</dict>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oWJgzejE3x42O4PhzS47tJXEFQWgPcjc12l5DC/MxhM=
+			E24wP9LAoQDg+KVc2F7EBN5OMw7rnq7FuDZCqlhvHdw=
 			</data>
 		</dict>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+TwMiGyU2eieig2gEJHeDiIvCfIJAFCABRXEZZUIrdo=
+			bttTmEGbwMHgiE7f3bClqLB4N3eLIFjdTTMP0wwOa1k=
 			</data>
 		</dict>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EXqjd6K23i0DgQilUug20Bl5Nk/YowTt90sfptlEUSA=
+			zugzGeqD0a9iBya4xa2/deQrAfHug1LZ6AYZanKKdFE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7wPY69MCOL7CMw3KUer3wqhH4lF+U75nk1gL93lvqfw=
-			</data>
-		</dict>
-		<key>PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BMXXsngH4IeHQxT/MThsfiylg2p4t3ASWCAoGBmNRkw=
+			O47jTka71XrBKxXPCXzdEgLuQAO3VNFdI5cGQHlWxjo=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
