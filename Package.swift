@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/TransmitSecurity/core-ios-sdk.git", from: "1.0.21"),
-        .package(url: "https://github.com/TransmitSecurity/accountprotection-ios-sdk.git", from: "2.1.0")
+        .package(url: "https://github.com/TransmitSecurity/accountprotection-ios-sdk.git", from: "2.1.1")
     ],
     targets: [
         .binaryTarget(

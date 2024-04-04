@@ -135,7 +135,7 @@ Pod::Spec.new do |spec|
   
     # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
     spec.dependency "TSCoreSDK", "~> 1.0.21"
-    spec.dependency "AccountProtection", "~> 2.1.0"
+    spec.dependency "AccountProtection", "~> 2.1.1"
 
     spec.pod_target_xcconfig = {
       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
