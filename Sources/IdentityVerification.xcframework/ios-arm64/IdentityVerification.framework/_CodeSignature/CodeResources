@@ -8,6 +8,10 @@
 		<data>
 		jTdna7VZTWnz2wVHImlRSNSfrHU=
 		</data>
+		<key>CompletedView.nib</key>
+		<data>
+		01CZmZNXB8Zoe+FuoiV+bquaFg4=
+		</data>
 		<key>CustomButtonView.nib</key>
 		<data>
 		IR1HwF3yxHYpBrWnkNR9ogkYY2E=
@@ -22,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gR+KaPXRfN7N5XT0MzBaTRzCjeM=
+		qJoyJEcnlQrejK0C8NQR+FIwabU=
 		</data>
 		<key>InstructionsTableViewCell.nib</key>
 		<data>
@@ -58,7 +62,7 @@
 		</data>
 		<key>Main.storyboardc/WGP-dT-R3Q-view-ptK-dB-ebF.nib</key>
 		<data>
-		Dw+w5l9l6OEW5jArXmpGO1MQGME=
+		5bPCQLUcQ99pOzuhgmy3/8PzoHY=
 		</data>
 		<key>Main.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
@@ -70,7 +74,7 @@
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		+dgvsmcBuyf1rqXf80U0TjDZ/Ek=
+		7c6FXxukc/62dXFgCdnPyNJ6VkM=
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -86,7 +90,7 @@
 		</data>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		kd3T2ghJ3N9XC3MZ4hzTysnMTGI=
+		AttqmDoAbMUda5U2z9+WxCRK5ZE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +102,7 @@
 		</data>
 		<key>ProgressView.nib</key>
 		<data>
-		0bPTKAv0hK1nAkK4C71hvW7Ehwk=
+		dNOW0ra4/e6D11uD088iRDMHzRc=
 		</data>
 		<key>ResubmitView.nib</key>
 		<data>
@@ -143,6 +147,13 @@
 			<key>hash2</key>
 			<data>
 			vszQRG15es/4xHVZ8fOzbQSwhe8+PDFcvi43FKQh734=
+			</data>
+		</dict>
+		<key>CompletedView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BgOy2qnR8A1S69by6awE8b3c93979BFcJJ/FWpmKFPY=
 			</data>
 		</dict>
 		<key>CustomButtonView.nib</key>
@@ -226,7 +237,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H7vmRlzKugFONjZGeVPABJujuEDZKpNCFIMzjnSPWtA=
+			yEcRJ8WT0VRThqWTWrpwF25U69ACqrW8V/Cl7qAjViI=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
@@ -247,7 +258,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xZVa1P3ud6svgehVy9x4/vR9JrMy3som5GAmgQC005A=
+			iH/+udVkKxkGOOkKy5mKPdBWNWpG42Z8BB69xdAp3WQ=
 			</data>
 		</dict>
 		<key>Modules/IdentityVerification.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -275,7 +286,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2nWNfCod4eg4/w6xyNqZLMs9wv6vKwyLVwdiekpeR+I=
+			HMVG/gtoPnXwLy7FCswuFiGmPlCllx4X6+uIugp/Rh0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -296,7 +307,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hQ5E3se87KEkHEZneHR9j81w3VvGWqglEMdDNQ7TaKA=
+			Wv+VI3+jTHYTENYnYKHRmAROfcMr1+XcWnCParmO9UE=
 			</data>
 		</dict>
 		<key>ResubmitView.nib</key>

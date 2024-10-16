@@ -9167,6 +9167,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IdentityVerification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -11629,6 +11639,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/UI Components\/CompletedView\/CompletedView.swift",
+      "kind": "StringLiteral",
+      "offset": 803,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/UI\/UI Components\/CompletedView\/CompletedView.swift",
+      "kind": "StringLiteral",
+      "offset": 830,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
       "offset": 245,
@@ -12009,406 +12033,420 @@
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 4741,
+      "offset": 4712,
+      "length": 27,
+      "value": "\"click_continue_to_proceed\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 4755,
+      "length": 28,
+      "value": "\"Please continue to proceed\""
+    },
+    {
+      "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 4894,
       "length": 26,
       "value": "\"verification_in_progress\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 4783,
+      "offset": 4936,
       "length": 26,
       "value": "\"Verification in progress\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 4893,
+      "offset": 5046,
       "length": 13,
       "value": "\"please_wait\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 4922,
+      "offset": 5075,
       "length": 13,
       "value": "\"Please wait\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 5022,
+      "offset": 5175,
       "length": 10,
       "value": "\"continue\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 5048,
+      "offset": 5201,
       "length": 10,
       "value": "\"continue\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 5165,
+      "offset": 5318,
       "length": 22,
       "value": "\"something_went_wrong\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 5203,
+      "offset": 5356,
       "length": 22,
       "value": "\"Something went wrong\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 5320,
+      "offset": 5473,
       "length": 53,
       "value": "\"please_go_back_and_restart_the_verification_process\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 5389,
+      "offset": 5542,
       "length": 53,
       "value": "\"Please go back and restart the verification process\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 5539,
+      "offset": 5692,
       "length": 22,
       "value": "\"unsupported_document\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 5577,
+      "offset": 5730,
       "length": 22,
       "value": "\"Unsupported Document\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 5688,
+      "offset": 5841,
       "length": 18,
       "value": "\"document_expired\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 5722,
+      "offset": 5875,
       "length": 18,
       "value": "\"Document expired\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 5829,
+      "offset": 5982,
       "length": 18,
       "value": "\"document_damaged\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 5863,
+      "offset": 6016,
       "length": 18,
       "value": "\"Document damaged\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 5969,
+      "offset": 6122,
       "length": 18,
       "value": "\"please_try_again\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 6003,
+      "offset": 6156,
       "length": 18,
       "value": "\"Please try again\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 6107,
+      "offset": 6260,
       "length": 16,
       "value": "\"use_another_id\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 6139,
+      "offset": 6292,
       "length": 40,
       "value": "\"Please use another government issue ID\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 6264,
+      "offset": 6417,
       "length": 28,
       "value": "\"document_not_found_message\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 6308,
+      "offset": 6461,
       "length": 52,
       "value": "\"make sure you capture a valid government issued id\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 6455,
+      "offset": 6608,
       "length": 25,
       "value": "\"support_these_documents\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 6496,
+      "offset": 6649,
       "length": 33,
       "value": "\"We support these document types\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 6617,
+      "offset": 6770,
       "length": 18,
       "value": "\"capture_is_clear\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 6651,
+      "offset": 6804,
       "length": 41,
       "value": "\"Capture of document and selfie is clear\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 6777,
+      "offset": 6930,
       "length": 19,
       "value": "\"take_back_capture\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 6812,
+      "offset": 6965,
       "length": 38,
       "value": "\"Take back capture (instead of front)\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 6937,
+      "offset": 7090,
       "length": 20,
       "value": "\"selfie_is_in_frame\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 6973,
+      "offset": 7126,
       "length": 20,
       "value": "\"Selfie is in frame\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 7075,
+      "offset": 7228,
       "length": 10,
       "value": "\"passport\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 7101,
+      "offset": 7254,
       "length": 10,
       "value": "\"Passport\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 7194,
+      "offset": 7347,
       "length": 16,
       "value": "\"driver_license\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 7226,
+      "offset": 7379,
       "length": 16,
       "value": "\"Driver license\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 7326,
+      "offset": 7479,
       "length": 13,
       "value": "\"national_id\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 7355,
+      "offset": 7508,
       "length": 13,
       "value": "\"National ID\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 7452,
+      "offset": 7605,
       "length": 13,
       "value": "\"easily_read\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 7481,
+      "offset": 7634,
       "length": 13,
       "value": "\"Easily read\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 7579,
+      "offset": 7732,
       "length": 14,
       "value": "\"well_lighten\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 7609,
+      "offset": 7762,
       "length": 14,
       "value": "\"Well lighted\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 7715,
+      "offset": 7868,
       "length": 22,
       "value": "\"all_elements_visible\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 7753,
+      "offset": 7906,
       "length": 42,
       "value": "\"All elements are visible and not covered\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 7884,
+      "offset": 8037,
       "length": 17,
       "value": "\"session_missing\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 7917,
+      "offset": 8070,
       "length": 32,
       "value": "\"The session missing or invalid\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 8042,
+      "offset": 8195,
       "length": 22,
       "value": "\"initialization_error\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 8080,
+      "offset": 8233,
       "length": 27,
       "value": "\"Initialization was failed\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 8191,
+      "offset": 8344,
       "length": 15,
       "value": "\"network_error\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 8222,
+      "offset": 8375,
       "length": 15,
       "value": "\"Network error\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 8334,
+      "offset": 8487,
       "length": 27,
       "value": "\"verification_status_error\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 8377,
+      "offset": 8530,
       "length": 31,
       "value": "\"An unexpected technical error\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 8506,
+      "offset": 8659,
       "length": 28,
       "value": "\"camera_permission_required\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 8550,
+      "offset": 8703,
       "length": 29,
       "value": "\"Camera permissions required\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 8676,
+      "offset": 8829,
       "length": 28,
       "value": "\"camera_permissions_message\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 8720,
+      "offset": 8873,
       "length": 120,
       "value": "\"Identity verification procedure requires access to your camera for live capture. To proceed, enable camera permissions\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 8922,
+      "offset": 9075,
       "length": 16,
       "value": "\"go_to_settings\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 8954,
+      "offset": 9107,
       "length": 16,
       "value": "\"Go to settings\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 9053,
+      "offset": 9206,
       "length": 11,
       "value": "\"recapture\""
     },
     {
       "filePath": "\/Users\/igorbabitski\/Documents\/Projects\/verifyid-ios-demo-app\/TSVerifyidSDK\/IdentityVerification\/Localization\/TSLocalization.swift",
       "kind": "StringLiteral",
-      "offset": 9080,
+      "offset": 9233,
       "length": 11,
       "value": "\"Recapture\""
     },
