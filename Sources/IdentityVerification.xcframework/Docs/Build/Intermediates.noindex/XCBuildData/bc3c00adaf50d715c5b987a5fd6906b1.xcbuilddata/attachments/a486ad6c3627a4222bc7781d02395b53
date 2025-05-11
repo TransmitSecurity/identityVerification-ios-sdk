@@ -1,0 +1,10 @@
+framework module AccountProtection {
+  umbrella header "AccountProtection.h"
+  export *
+
+  module * { export * }
+}
+
+module AccountProtection.__Swift {
+  exclude header "AccountProtection-Swift.h"
+}

@@ -1,0 +1,174 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name AccountProtection
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
+@_exported import AccountProtection
+import SystemConfiguration.CaptiveNetwork
+import Combine
+import CoreMotion
+import CoreTelephony
+import Darwin
+import ExternalAccessory
+import Foundation
+import LocalAuthentication
+import MachO
+import Swift
+import SwiftUI
+import SystemConfiguration
+import TSCoreSDK
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import zlib
+public struct TSDrsConfiguration {
+  public init(configurationFileName: Swift.String)
+}
+public struct TSInitSDKConfiguration : Swift.Codable {
+  public let enableTrackingBehavioralData: Swift.Bool?
+  public init(enableTrackingBehavioralData: Swift.Bool)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TSTriggerActionResponse {
+  public let token: Swift.String
+}
+public struct TSTriggerActionError : Swift.Error {
+}
+public enum TSAccountProtectionError : Swift.Error {
+  case `internal`((any Swift.Error)?)
+}
+public struct TSActionEventOptions {
+  public init(correlationId: Swift.String?, claimUserId: Swift.String?, referenceUserId: Swift.String?, transactionData: AccountProtection.TSTransactionData? = nil)
+}
+public struct TSTransactionData : Swift.Codable {
+  public struct Payer : Swift.Codable {
+    public init(name: Swift.String?, branchIdentifier: Swift.String?, accountNumber: Swift.String?)
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct Payee : Swift.Codable {
+    public init(name: Swift.String?, bankIdentifier: Swift.String?, branchIdentifier: Swift.String?, accountNumber: Swift.String?)
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public init(amount: Swift.Double, currency: Swift.String, reason: Swift.String?, transactionDate: Swift.Int64?, payer: AccountProtection.TSTransactionData.Payer?, payee: AccountProtection.TSTransactionData.Payee?)
+  public let amount: Swift.Double
+  public let currency: Swift.String
+  public let reason: Swift.String?
+  public let transactionDate: Swift.Int64?
+  public let payer: AccountProtection.TSTransactionData.Payer?
+  public let payee: AccountProtection.TSTransactionData.Payee?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class TSAccountProtection : ObjectiveC.NSObject, TSCoreSDK.TSLogConfigurable {
+  public typealias CompletionResult = Swift.Result<Swift.Void, AccountProtection.TSAccountProtectionError>
+  public typealias Completion = (AccountProtection.TSAccountProtection.CompletionResult) -> Swift.Void
+  public typealias SessionTokenCompletion = (Swift.String) -> Swift.Void
+  public static func initialize(baseUrl: Swift.String = "https://collect.riskid.security/device/", clientId: Swift.String, userId: Swift.String? = nil, configuration: AccountProtection.TSInitSDKConfiguration? = nil, completion: @escaping AccountProtection.TSAccountProtection.Completion)
+  public static func initialize(baseUrl: Swift.String = "https://api.transmitsecurity.io/", clientId: Swift.String, userId: Swift.String? = nil, configuration: AccountProtection.TSInitSDKConfiguration? = nil)
+  public static func initializeSDK(userId: Swift.String? = nil, completion: AccountProtection.TSAccountProtection.Completion? = nil, configuration: AccountProtection.TSDrsConfiguration? = nil) throws
+  public static func triggerAction(_ action: Swift.String, options: AccountProtection.TSActionEventOptions? = nil, completion: @escaping (Swift.Result<AccountProtection.TransmitSecurityTriggerActionResponse, AccountProtection.TransmitSecurityAccountProtectionError>) -> Swift.Void)
+  public static func setUserId(_ userId: Swift.String)
+  public static func clearUser()
+  public static func getSessionToken(completion: @escaping AccountProtection.TSAccountProtection.SessionTokenCompletion)
+  @objc deinit
+}
+public protocol SystemControlValueDefining {
+  associatedtype ValueType : AccountProtection.RawPointerConvertible
+  var flags: [Swift.Int32] { get }
+}
+public struct SystemControlValueDefinition<T> : AccountProtection.SystemControlValueDefining where T : AccountProtection.RawPointerConvertible {
+  public typealias ValueType = T
+  public let flags: [Swift.Int32]
+  public init(flags: [Swift.Int32])
+}
+public enum TSProtectionError : Swift.Error {
+  case Disabled
+  case InternalError
+  case ConnectionError
+  case NotSupportedActionError
+  public static func == (a: AccountProtection.TSProtectionError, b: AccountProtection.TSProtectionError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol SystemControlValuesProviding {
+  func getSystemValue<T>(_ definition: T) throws -> T.ValueType where T : AccountProtection.SystemControlValueDefining
+}
+public struct SystemControlValuesProvider : AccountProtection.SystemControlValuesProviding {
+  public init()
+  public func getSystemValue<T>(_ definition: T) throws -> T.ValueType where T : AccountProtection.SystemControlValueDefining
+}
+@_hasMissingDesignatedInitializers public class FridaDetector {
+  public enum DetectionResults {
+    case unknown
+    case notDetected
+    case detected(AccountProtection.FridaDetector.DetectedData)
+  }
+  public struct DetectedData : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public func isRunningPatchedBinary() -> AccountProtection.FridaDetector.DetectionResults
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class JWTDecoder {
+  @objc deinit
+}
+public enum BiometryType : Swift.String, Swift.Encodable {
+  case faceID
+  case touchID
+  case opticID
+  case none
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum SystemControlError : Swift.Error, Swift.Equatable {
+  case osError(Swift.Int32)
+  case valueHasZeroSize
+  public static func == (a: AccountProtection.SystemControlError, b: AccountProtection.SystemControlError) -> Swift.Bool
+}
+public enum TransmitSecurityAccountProtectionError : Swift.Error {
+  case disabled
+  case internalError
+  case connectionError
+  case notSupportedActionError
+  case initializationError
+  public static func == (a: AccountProtection.TransmitSecurityAccountProtectionError, b: AccountProtection.TransmitSecurityAccountProtectionError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct TransmitSecurityTriggerActionResponse : Swift.Codable {
+  public let actionToken: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol RawPointerConvertible {
+  static func loadValue(_ from: Swift.UnsafeRawPointer, of size: Swift.Int) -> Self
+  static func withRawMemory(of size: Swift.Int, body: (inout Swift.UnsafeMutableRawPointer) throws -> Self) rethrows -> Self
+}
+extension AccountProtection.RawPointerConvertible {
+  public static func withRawMemory(of size: Swift.Int, body: (inout Swift.UnsafeMutableRawPointer) throws -> Self) rethrows -> Self
+  public static func loadValue(_ from: Swift.UnsafeRawPointer, of size: Swift.Int) -> Self
+}
+extension Swift.String : AccountProtection.RawPointerConvertible {
+  public static func withRawMemory(of size: Swift.Int, body: (inout Swift.UnsafeMutableRawPointer) throws -> Swift.String) rethrows -> Swift.String
+  public static func loadValue(_ from: Swift.UnsafeRawPointer, of size: Swift.Int) -> Swift.String
+}
+extension AccountProtection.TSProtectionError : Swift.Equatable {}
+extension AccountProtection.TSProtectionError : Swift.Hashable {}
+extension AccountProtection.BiometryType : Swift.Equatable {}
+extension AccountProtection.BiometryType : Swift.Hashable {}
+extension AccountProtection.BiometryType : Swift.RawRepresentable {}
+extension AccountProtection.TransmitSecurityAccountProtectionError : Swift.Equatable {}
+extension AccountProtection.TransmitSecurityAccountProtectionError : Swift.Hashable {}

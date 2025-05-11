@@ -1,0 +1,40 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "core-ios-sdk",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/TransmitSecurity/core-ios-sdk.git",
+          "name" : "core-ios-sdk"
+        },
+        "path" : "/Users/ec2-user/actions-runner/_work/verifyid-ios-demo-app/verifyid-ios-demo-app/verifyid-ios-demo-app/Docs/SourcePackages/checkouts/core-ios-sdk/Sources/TSCoreSDK.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "TSCoreSDK"
+      }
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "core-ios-sdk",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/TransmitSecurity/core-ios-sdk.git",
+          "name" : "core-ios-sdk"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "e14e933543dcda84dbc603e92c646a68fe7b5c55",
+            "version" : "1.0.30"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "core-ios-sdk"
+      }
+    ]
+  },
+  "version" : 6
+}

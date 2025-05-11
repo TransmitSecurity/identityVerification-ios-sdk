@@ -1,0 +1,307 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name IdentityVerification
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
+import AccountProtection
+import Combine
+import CoreImage
+import CoreML
+import DeveloperToolsSupport
+import Foundation
+@_exported import IdentityVerification
+import SafariServices
+import Swift
+import SwiftUI
+import TSCoreSDK
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import zlib
+public protocol TSIdentityFaceAuthenticationDelegate : AnyObject {
+  func faceAuthenticationDidStartCapturing()
+  func faceAuthenticationDidStartProcessing()
+  func faceAuthenticationDidComplete()
+  func faceAuthenticationDidCancel()
+  func faceAuthenticationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
+}
+extension IdentityVerification.TSIdentityFaceAuthenticationDelegate {
+  public func faceAuthenticationDidStartCapturing()
+  public func faceAuthenticationDidStartProcessing()
+  public func faceAuthenticationDidComplete()
+  public func faceAuthenticationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
+  public func faceAuthenticationDidCancel()
+}
+public protocol TSIdentityVerificationMosaicUIDelegate : AnyObject {
+  func mosaicUIVerificationDidComplete()
+  func mosaicUIVerificationDidCancel()
+  func mosaicUIVerificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
+}
+extension IdentityVerification.TSIdentityVerificationMosaicUIDelegate {
+  public func mosaicUIVerificationDidComplete()
+  public func mosaicUIVerificationDidCancel()
+  public func mosaicUIVerificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
+}
+extension IdentityVerification.TSRecaptureReason : Swift.CustomStringConvertible, Swift.Decodable, Swift.Equatable {
+  public static func == (lhs: IdentityVerification.TSRecaptureReason, rhs: IdentityVerification.TSRecaptureReason) -> Swift.Bool
+  public var description: Swift.String {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol LineStyling {
+  var shouldTokeniseLine: Swift.Bool { get }
+  func styleIfFoundStyleAffectsPreviousLine() -> (any IdentityVerification.LineStyling)?
+}
+public struct SwiftyLine : Swift.CustomStringConvertible {
+  public let line: Swift.String
+  public let lineStyle: any IdentityVerification.LineStyling
+  public var description: Swift.String {
+    get
+  }
+}
+extension IdentityVerification.SwiftyLine : Swift.Equatable {
+  public static func == (lhs: IdentityVerification.SwiftyLine, rhs: IdentityVerification.SwiftyLine) -> Swift.Bool
+}
+public enum Remove {
+  case leading
+  case trailing
+  case both
+  case entireLine
+  case none
+  public static func == (a: IdentityVerification.Remove, b: IdentityVerification.Remove) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ChangeApplication {
+  case current
+  case previous
+  case untilClose
+  public static func == (a: IdentityVerification.ChangeApplication, b: IdentityVerification.ChangeApplication) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct LineRule {
+  public init(token: Swift.String, type: any IdentityVerification.LineStyling, removeFrom: IdentityVerification.Remove = .leading, shouldTrim: Swift.Bool = true, changeAppliesTo: IdentityVerification.ChangeApplication = .current)
+}
+public class MarkdownLineProcessor {
+  public var processEmptyStrings: (any IdentityVerification.LineStyling)?
+  public init(rules: [IdentityVerification.LineRule], defaultRule: any IdentityVerification.LineStyling)
+  public func process(_ string: Swift.String) -> [IdentityVerification.SwiftyLine]
+  @objc deinit
+}
+extension TSCoreSDK.TSRequestError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+public enum TSRecaptureReason {
+  case imageMissing
+  case docExpired
+  case docNotSupported
+  case docDamaged
+  case poorImageQuality
+  case unknown
+  case other(reason: Swift.String)
+}
+public protocol TSIdentityVerificationDelegate : AnyObject {
+  func verificationDidStartCapturing()
+  func verificationDidStartProcessing()
+  func verificationRequiresRecapture(reason: IdentityVerification.TSRecaptureReason)
+  func verificationDidComplete()
+  func verificationDidCancel()
+  func verificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
+}
+extension IdentityVerification.TSIdentityVerificationDelegate {
+  public func verificationDidStartCapturing()
+  public func verificationDidStartProcessing()
+  public func verificationRequiresRecapture(reason: IdentityVerification.TSRecaptureReason)
+  public func verificationDidComplete()
+  public func verificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
+  public func verificationDidCancel()
+}
+public enum FontStyle : Swift.Int {
+  case normal
+  case bold
+  case italic
+  case boldItalic
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol FontProperties {
+  var fontName: Swift.String? { get set }
+  var color: UIKit.UIColor { get set }
+  var fontSize: CoreFoundation.CGFloat { get set }
+  var fontStyle: IdentityVerification.FontStyle { get set }
+}
+public protocol LineProperties {
+  var alignment: UIKit.NSTextAlignment { get set }
+}
+@objc @_inheritsConvenienceInitializers open class BasicStyles : ObjectiveC.NSObject, IdentityVerification.FontProperties {
+  public var fontName: Swift.String?
+  public var color: UIKit.UIColor
+  public var fontSize: CoreFoundation.CGFloat
+  public var fontStyle: IdentityVerification.FontStyle
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class LineStyles : ObjectiveC.NSObject, IdentityVerification.FontProperties, IdentityVerification.LineProperties {
+  public var fontName: Swift.String?
+  public var color: UIKit.UIColor
+  public var fontSize: CoreFoundation.CGFloat
+  public var fontStyle: IdentityVerification.FontStyle
+  public var alignment: UIKit.NSTextAlignment
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol CharacterStyling {
+  func isEqualTo(_ other: any IdentityVerification.CharacterStyling) -> Swift.Bool
+}
+public enum SpaceAllowed {
+  case no
+  case bothSides
+  case oneSide
+  case leadingSide
+  case trailingSide
+  public static func == (a: IdentityVerification.SpaceAllowed, b: IdentityVerification.SpaceAllowed) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum Cancel {
+  case none
+  case allRemaining
+  case currentSet
+  public static func == (a: IdentityVerification.Cancel, b: IdentityVerification.Cancel) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct CharacterRule : Swift.CustomStringConvertible {
+  public let openTag: Swift.String
+  public let intermediateTag: Swift.String?
+  public let closingTag: Swift.String?
+  public let escapeCharacter: Swift.Character?
+  public let styles: [Swift.Int : [any IdentityVerification.CharacterStyling]]
+  public var maxTags: Swift.Int
+  public var spacesAllowed: IdentityVerification.SpaceAllowed
+  public var cancels: IdentityVerification.Cancel
+  public var description: Swift.String {
+    get
+  }
+  public init(openTag: Swift.String, intermediateTag: Swift.String? = nil, closingTag: Swift.String? = nil, escapeCharacter: Swift.Character? = nil, styles: [Swift.Int : [any IdentityVerification.CharacterStyling]] = [:], maxTags: Swift.Int = 1, cancels: IdentityVerification.Cancel = .none)
+}
+public enum TokenType {
+  case repeatingTag
+  case openTag
+  case intermediateTag
+  case closeTag
+  case string
+  case escape
+  case replacement
+  public static func == (a: IdentityVerification.TokenType, b: IdentityVerification.TokenType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Token {
+  public let id: Swift.String
+  public let type: IdentityVerification.TokenType
+  public let inputString: Swift.String
+  public var metadataString: Swift.String? {
+    get
+  }
+  public var characterStyles: [any IdentityVerification.CharacterStyling] {
+    get
+  }
+  public var count: Swift.Int {
+    get
+  }
+  public var shouldSkip: Swift.Bool {
+    get
+  }
+  public var tokenIndex: Swift.Int {
+    get
+  }
+  public var isProcessed: Swift.Bool {
+    get
+  }
+  public var isMetadata: Swift.Bool {
+    get
+  }
+  public var outputString: Swift.String {
+    get
+  }
+  public init(type: IdentityVerification.TokenType, inputString: Swift.String, characterStyles: [any IdentityVerification.CharacterStyling] = [])
+}
+public class MarkdownTokeniser {
+  public init(with rules: [IdentityVerification.CharacterRule])
+  public func process(_ inputString: Swift.String) -> [IdentityVerification.Token]
+  @objc deinit
+}
+public struct TSIdvConfiguration {
+  public init(configurationFileName: Swift.String)
+}
+public enum TSIdentityVerificationError : Swift.Error {
+  case cameraPermissionRequired
+  case sdkDisabled
+  case sessionNotValid
+  case verificationStatusError
+  case recaptureNotRequired
+  case genericServerError
+  case networkError
+  case initializationError
+  public static func == (a: IdentityVerification.TSIdentityVerificationError, b: IdentityVerification.TSIdentityVerificationError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class TSIdentityVerification : ObjectiveC.NSObject, TSCoreSDK.TSLogConfigurable {
+  weak public static var delegate: (any IdentityVerification.TSIdentityVerificationDelegate)? {
+    get
+    set
+  }
+  weak public static var faceAuthDelegate: (any IdentityVerification.TSIdentityFaceAuthenticationDelegate)? {
+    get
+    set
+  }
+  weak public static var mosaicUIDelegate: (any IdentityVerification.TSIdentityVerificationMosaicUIDelegate)? {
+    get
+    set
+  }
+  public static func initialize(baseUrl: Swift.String = "https://api.transmitsecurity.io/", clientId: Swift.String)
+  public static func initializeSDK(configuration: IdentityVerification.TSIdvConfiguration? = nil) throws
+  public static func start(startToken: Swift.String)
+  public static func startFaceAuth(deviceSessionId: Swift.String)
+  public static func recapture()
+  public static func startMosaicUI(startToken: Swift.String)
+  @objc deinit
+}
+extension IdentityVerification.Remove : Swift.Equatable {}
+extension IdentityVerification.Remove : Swift.Hashable {}
+extension IdentityVerification.ChangeApplication : Swift.Equatable {}
+extension IdentityVerification.ChangeApplication : Swift.Hashable {}
+extension IdentityVerification.FontStyle : Swift.Equatable {}
+extension IdentityVerification.FontStyle : Swift.Hashable {}
+extension IdentityVerification.FontStyle : Swift.RawRepresentable {}
+extension IdentityVerification.SpaceAllowed : Swift.Equatable {}
+extension IdentityVerification.SpaceAllowed : Swift.Hashable {}
+extension IdentityVerification.Cancel : Swift.Equatable {}
+extension IdentityVerification.Cancel : Swift.Hashable {}
+extension IdentityVerification.TokenType : Swift.Equatable {}
+extension IdentityVerification.TokenType : Swift.Hashable {}
+extension IdentityVerification.TSIdentityVerificationError : Swift.Equatable {}
+extension IdentityVerification.TSIdentityVerificationError : Swift.Hashable {}

@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/ec2-user/actions-runner/_work/verifyid-ios-demo-app/verifyid-ios-demo-app/verifyid-ios-demo-app/Docs/Build/Products/Debug-iphoneos/AccountProtection.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/ec2-user/actions-runner/_work/verifyid-ios-demo-app/verifyid-ios-demo-app/verifyid-ios-demo-app/Docs/Build/Intermediates.noindex/AccountProtection.build/Debug-iphoneos/AccountProtection.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/ec2-user/actions-runner/_work/verifyid-ios-demo-app/verifyid-ios-demo-app/verifyid-ios-demo-app/Docs/Build/Products/Debug-iphoneos/AccountProtection.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "AccountProtection-Swift.h",
+      'external-contents': "/Users/ec2-user/actions-runner/_work/verifyid-ios-demo-app/verifyid-ios-demo-app/verifyid-ios-demo-app/Docs/Build/Intermediates.noindex/AccountProtection.build/Debug-iphoneos/AccountProtection.build/unextended-interface-header.h",
+    }]
+    }]
+}

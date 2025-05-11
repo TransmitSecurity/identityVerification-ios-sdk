@@ -1,0 +1,9 @@
+Target dependency graph (4 targets)
+Target 'IdentityVerification' in project 'IdentityVerification'
+➜ Explicit dependency on target 'Localization' in project 'IdentityVerification'
+➜ Implicit dependency on target 'TSCoreSDK' in project 'TSCoreSDK' via file 'TSCoreSDK.framework' in build phase 'Link Binary'
+➜ Implicit dependency on target 'AccountProtection' in project 'AccountProtection' via file 'AccountProtection.framework' in build phase 'Link Binary'
+Target 'AccountProtection' in project 'AccountProtection'
+➜ Implicit dependency on target 'TSCoreSDK' in project 'TSCoreSDK' via file 'TSCoreSDK.framework' in build phase 'Link Binary'
+Target 'TSCoreSDK' in project 'TSCoreSDK' (no dependencies)
+Target 'Localization' in project 'IdentityVerification' (no dependencies)

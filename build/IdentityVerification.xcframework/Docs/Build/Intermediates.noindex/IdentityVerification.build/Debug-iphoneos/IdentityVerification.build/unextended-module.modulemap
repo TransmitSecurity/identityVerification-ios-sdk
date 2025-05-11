@@ -1,0 +1,10 @@
+framework module IdentityVerification {
+  umbrella header "IdentityVerification.h"
+  export *
+
+  module * { export * }
+}
+
+module IdentityVerification.__Swift {
+  exclude header "IdentityVerification-Swift.h"
+}
