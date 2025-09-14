@@ -1,9 +1,13 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name IdentityVerification
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
+import Accelerate
 import AccountProtection
 import Combine
+import CoreImage
+import CoreML
 import DeveloperToolsSupport
 import Foundation
 @_exported import IdentityVerification
@@ -12,6 +16,7 @@ import Swift
 import SwiftUI
 import TSCoreSDK
 import UIKit
+import Vision
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -30,20 +35,22 @@ extension IdentityVerification.TSIdentityFaceAuthenticationDelegate {
   public func faceAuthenticationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
   public func faceAuthenticationDidCancel()
 }
-public protocol TSIdentityVerificationSmartUIDelegate : AnyObject {
-  func smartUIVerificationDidComplete()
-  func smartUIVerificationDidCancel()
-  func smartUIVerificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
+public protocol TSIdentityVerificationMosaicUIDelegate : AnyObject {
+  func mosaicUIVerificationDidComplete()
+  func mosaicUIVerificationDidCancel()
+  func mosaicUIVerificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
 }
-extension IdentityVerification.TSIdentityVerificationSmartUIDelegate {
-  public func smartUIVerificationDidComplete()
-  public func smartUIVerificationDidCancel()
-  public func smartUIVerificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
+extension IdentityVerification.TSIdentityVerificationMosaicUIDelegate {
+  public func mosaicUIVerificationDidComplete()
+  public func mosaicUIVerificationDidCancel()
+  public func mosaicUIVerificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
 }
-extension IdentityVerification.TSRecaptureReason : Swift.CustomStringConvertible, Swift.Decodable {
+extension IdentityVerification.TSRecaptureReason : Swift.CustomStringConvertible, Swift.Decodable, Swift.Equatable {
+  public static func == (lhs: IdentityVerification.TSRecaptureReason, rhs: IdentityVerification.TSRecaptureReason) -> Swift.Bool
   public var description: Swift.String {
     get
   }
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol LineStyling {
   var shouldTokeniseLine: Swift.Bool { get }
@@ -95,18 +102,14 @@ extension TSCoreSDK.TSRequestError : Swift.CustomStringConvertible {
     get
   }
 }
-public enum TSRecaptureReason : Swift.Int {
+public enum TSRecaptureReason {
   case imageMissing
   case docExpired
   case docNotSupported
   case docDamaged
   case poorImageQuality
   case unknown
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
+  case other(reason: Swift.String)
 }
 public protocol TSIdentityVerificationDelegate : AnyObject {
   func verificationDidStartCapturing()
@@ -276,7 +279,7 @@ public enum TSIdentityVerificationError : Swift.Error {
     get
     set
   }
-  weak public static var smartUIDelegate: (any IdentityVerification.TSIdentityVerificationSmartUIDelegate)? {
+  weak public static var mosaicUIDelegate: (any IdentityVerification.TSIdentityVerificationMosaicUIDelegate)? {
     get
     set
   }
@@ -285,12 +288,9 @@ public enum TSIdentityVerificationError : Swift.Error {
   public static func start(startToken: Swift.String)
   public static func startFaceAuth(deviceSessionId: Swift.String)
   public static func recapture()
-  public static func startWithSmartUI(startToken: Swift.String)
+  public static func startMosaicUI(startToken: Swift.String)
   @objc deinit
 }
-extension IdentityVerification.TSRecaptureReason : Swift.Equatable {}
-extension IdentityVerification.TSRecaptureReason : Swift.Hashable {}
-extension IdentityVerification.TSRecaptureReason : Swift.RawRepresentable {}
 extension IdentityVerification.Remove : Swift.Equatable {}
 extension IdentityVerification.Remove : Swift.Hashable {}
 extension IdentityVerification.ChangeApplication : Swift.Equatable {}
