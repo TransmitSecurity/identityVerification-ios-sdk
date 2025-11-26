@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 //! Project version number for IdentityVerification.
 FOUNDATION_EXPORT double IdentityVerificationVersionNumber;
 
