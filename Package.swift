@@ -25,7 +25,9 @@ let package = Package(
         .target(name: "IdentityVerification-Dependencies",
                 dependencies: [
                     .product(name: "AccountProtection",
-                             package: "accountprotection-ios-sdk")
+                             package: "accountprotection-ios-sdk"),
+                    .product(name: "TSCoreSDK",
+                             package: "core-ios-sdk")
                 ]),
     ]
 )
