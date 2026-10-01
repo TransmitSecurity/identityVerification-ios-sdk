@@ -1,17 +1,23 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name IdentityVerification
+// swift-compiler-version: Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name IdentityVerification
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import Accelerate
 import AccountProtection
 import Combine
+import CommonCrypto
 import CoreImage
 import CoreML
+import CoreNFC
+import CoreVideo
+import CryptoKit
 import DeveloperToolsSupport
 import Foundation
 @_exported import IdentityVerification
+import ImageIO
 import SafariServices
+import Security
 import Swift
 import SwiftUI
 import TSCoreSDK
@@ -88,7 +94,7 @@ public enum ChangeApplication {
     get
   }
 }
-public struct LineRule {
+public struct LineRule : @unchecked Swift.Sendable {
   public init(token: Swift.String, type: any IdentityVerification.LineStyling, removeFrom: IdentityVerification.Remove = .leading, shouldTrim: Swift.Bool = true, changeAppliesTo: IdentityVerification.ChangeApplication = .current)
 }
 public class MarkdownLineProcessor {
@@ -96,11 +102,6 @@ public class MarkdownLineProcessor {
   public init(rules: [IdentityVerification.LineRule], defaultRule: any IdentityVerification.LineStyling)
   public func process(_ string: Swift.String) -> [IdentityVerification.SwiftyLine]
   @objc deinit
-}
-extension TSCoreSDK.TSRequestError : Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
 }
 public enum TSRecaptureReason {
   case imageMissing
@@ -164,6 +165,18 @@ public protocol LineProperties {
   @objc override dynamic public init()
   @objc deinit
 }
+public protocol TSModularVerificationDelegate : AnyObject {
+  func modularVerificationDidStartCapturing()
+  func modularVerificationDidComplete()
+  func modularVerificationDidCancel()
+  func modularVerificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
+}
+extension IdentityVerification.TSModularVerificationDelegate {
+  public func modularVerificationDidStartCapturing()
+  public func modularVerificationDidComplete()
+  public func modularVerificationDidFail(with error: IdentityVerification.TSIdentityVerificationError)
+  public func modularVerificationDidCancel()
+}
 public protocol CharacterStyling {
   func isEqualTo(_ other: any IdentityVerification.CharacterStyling) -> Swift.Bool
 }
@@ -189,7 +202,7 @@ public enum Cancel {
     get
   }
 }
-public struct CharacterRule : Swift.CustomStringConvertible {
+public struct CharacterRule : Swift.CustomStringConvertible, @unchecked Swift.Sendable {
   public let openTag: Swift.String
   public let intermediateTag: Swift.String?
   public let closingTag: Swift.String?
@@ -255,6 +268,10 @@ public class MarkdownTokeniser {
 public struct TSIdvConfiguration {
   public init(configurationFileName: Swift.String)
 }
+public struct TSIdvOptions {
+  public let enableUserCancellation: Swift.Bool
+  public init(enableUserCancellation: Swift.Bool = true)
+}
 public enum TSIdentityVerificationError : Swift.Error {
   case cameraPermissionRequired
   case sdkDisabled
@@ -264,6 +281,8 @@ public enum TSIdentityVerificationError : Swift.Error {
   case genericServerError
   case networkError
   case initializationError
+  case notInitialized
+  case configFetchError
   public static func == (a: IdentityVerification.TSIdentityVerificationError, b: IdentityVerification.TSIdentityVerificationError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -283,12 +302,18 @@ public enum TSIdentityVerificationError : Swift.Error {
     get
     set
   }
+  weak public static var modularVerificationDelegate: (any IdentityVerification.TSModularVerificationDelegate)? {
+    get
+    set
+  }
   public static func initialize(baseUrl: Swift.String = "https://api.transmitsecurity.io/", clientId: Swift.String)
   public static func initializeSDK(configuration: IdentityVerification.TSIdvConfiguration? = nil) throws
   public static func start(startToken: Swift.String)
   public static func startFaceAuth(deviceSessionId: Swift.String)
   public static func recapture()
   public static func startMosaicUI(startToken: Swift.String)
+  public static func startDocumentAcquisition(startToken: Swift.String?, acquisitionId: Swift.String? = nil, options: IdentityVerification.TSIdvOptions? = nil) throws
+  public static func startSelfieAcquisition(startToken: Swift.String?, acquisitionId: Swift.String? = nil, options: IdentityVerification.TSIdvOptions? = nil) throws
   @objc deinit
 }
 extension IdentityVerification.Remove : Swift.Equatable {}
